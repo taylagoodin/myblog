@@ -1,0 +1,162 @@
+/*for masonry layout*/
+.masonry {
+  column-count:4;
+  column-gap:1em;
+  margin:1em;
+
+}
+
+.item {
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+
+}
+/*ends*/
+
+.dates {
+  text-align:left;
+  margin-left:15px;
+  color:grey;
+
+}
+
+  .center {
+    text-align: center;
+  }
+
+  .background-colour {
+    background-color: white;
+  }
+
+  .font {
+    font-family: garamond, Georgia, Arial, Verdana;
+  }
+
+
+  .nav-gap {
+    margin-bottom:35px;
+  }
+
+
+  body {
+    margin: 0;
+  }
+
+  li {
+    padding: 70px;
+    display:inline;
+
+  }
+
+
+  h2 {
+    color:grey;
+  }
+
+
+  .nav-bar {
+    background-color: #353434;
+    width:100%;
+    height: 70px
+
+  }
+
+  .arrow {
+    font-size: 30px;
+    position:fixed;
+    right:20px;
+    bottom:20px;
+}
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .footer{
+    background-color: #353434
+    width:100px;
+    height:35px;
+    position:fixed;
+  }
+
+  .divider{
+    background-color:#dcd9d9;
+    width:100%;
+    height:10px;
+    margin-bottom:50px;
+    margin-left:15px;
+    margin-right:15px;
+
+  }
+
+  /*following is all for hovering over images  */
+  .container{
+    position: relative;
+  }
+
+  .imageoverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+  }
+
+  .container:hover .imageoverlay {
+    opacity: 0.8;
+  }
+
+  .text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+  }
+  /* ends here */
+  /* following all for the social media buttons */
+  .fa {
+    padding: 15px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    float:left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border-radius:50%;
+    text-decoration:none;
+
+  }
+
+  .fa-facebook, .fa-facebook:hover {
+    background: #3B5998;
+    color:white;
+  }
+
+  .fa-instagram, .fa-instagram:hover {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-pinterest, .fa-pinterest:hover {
+    background: #cb2027;
+    color:white;
+  }
+
+  .fa-twitter, .fa-twitter:hover {
+    background: #4AB3F4;
+    color: white;
+  }
+  /*ends here*/
